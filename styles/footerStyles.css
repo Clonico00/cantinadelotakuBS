@@ -5,12 +5,10 @@ body {
 
 header {
     min-height: 50px;
-    background: lightcyan;
 }
 
 footer {
     min-height: 50px;
-    background: PapayaWhip;
 }
 
 /* The article fills all the space between header & footer */
