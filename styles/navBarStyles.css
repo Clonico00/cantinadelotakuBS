@@ -9,7 +9,7 @@ nav{
     display: flex;
     height: 120px;
     width: 100%;
-    background: #1b1b1b;
+    background: #212529;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -40,7 +40,7 @@ nav ul li a{
 }
 nav ul li a.active,
 nav ul li a:hover{
-    color: #111;
+    color: #212529;
     background: #fff;
 }
 nav .menu-btn i{
@@ -68,7 +68,7 @@ input[type="checkbox"]{
         position: fixed;
         top: 80px;
         left: -100%;
-        background: #111;
+        background: #212529;
         height: 100vh;
         width: 100%;
         text-align: center;
@@ -95,21 +95,6 @@ input[type="checkbox"]{
     nav ul li a.active,
     nav ul li a:hover{
         background: none;
-        color: cyan;
+        color: #ffffff;
     }
-}
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-    width: 100%;
-    padding: 0 30px;
-    color: #1b1b1b;
-}
-.content div{
-    font-size: 40px;
-    font-weight: 700;
 }
