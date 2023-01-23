@@ -12,7 +12,7 @@ h1 {
     color: white;
     border-radius: 20px;
     padding: 0.5em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .slide-container {
@@ -52,7 +52,7 @@ h1 {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #4070F4;
+    background-color: #212529;
     border-radius: 25px 25px 0 25px;
 }
 
@@ -64,7 +64,7 @@ h1 {
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #4070F4;
+    background-color: #212529;
 }
 
 .overlay::after {
@@ -86,7 +86,7 @@ h1 {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #4070F4;
+    border: 4px solid #212529;
 }
 
 .name {
@@ -106,7 +106,7 @@ h1 {
     font-size: 16px;
     color: #FFF;
     padding: 8px 16px;
-    background-color: #4070F4;
+    background-color: #212529;
     border-radius: 6px;
     margin: 14px;
     cursor: pointer;
@@ -114,25 +114,26 @@ h1 {
 }
 
 .button:hover {
-    background: #265DF2;
+    background: #717375;
 }
 
 .swiper-navBtn {
-    color: #6E93f7;
     transition: color 0.3s ease;
 }
 
 .swiper-navBtn:hover {
-    color: #4070F4;
+    color: #212529;
 }
 
 .swiper-navBtn::before,
 .swiper-navBtn::after {
     font-size: 35px;
+    color: #373a3d;
+    margin-top: 1.5em;
 }
 
 .swiper-button-next {
-    right: 0;
+    left: 10px;
 }
 
 .swiper-button-prev {
@@ -140,12 +141,12 @@ h1 {
 }
 
 .swiper-pagination-bullet {
-    background-color: #6E93f7;
+    background-color: #212529;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #4070F4;
+    background-color: #212529;
 }
 
 @media screen and (max-width: 768px) {
