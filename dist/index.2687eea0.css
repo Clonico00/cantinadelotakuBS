@@ -1,0 +1,156 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap";
+h1 {
+  color: #fff;
+  background: #212529;
+  border-radius: 21px;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: .5em;
+  font-size: 35px;
+  display: flex;
+  box-shadow: 0 5px 15px #00000059;
+}
+
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide-content {
+  border-radius: 25px;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.image-content, .card-content {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  display: flex;
+}
+
+.image-content {
+  row-gap: 5px;
+  padding: 25px 0;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  border-radius: 25px 25px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay:before, .overlay:after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  background-color: #212529;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+
+.overlay:after {
+  background-color: #fff;
+  border-radius: 0 25px 0 0;
+}
+
+.card-image {
+  height: 150px;
+  width: 150px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 3px;
+  position: relative;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 4px solid #212529;
+  border-radius: 50%;
+}
+
+.name {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description {
+  color: #707070;
+  text-align: center;
+  font-size: 14px;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #212529;
+  border: none;
+  border-radius: 6px;
+  margin: 14px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+.button:hover {
+  background: #717375;
+}
+
+.swiper-navBtn {
+  transition: color .3s;
+}
+
+.swiper-navBtn:hover {
+  color: #212529;
+}
+
+.swiper-navBtn:before, .swiper-navBtn:after {
+  color: #373a3d;
+  margin-top: 1.5em;
+  font-size: 35px;
+}
+
+.swiper-button-next {
+  left: 10px;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #212529;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #212529;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.2687eea0.css.map */
