@@ -1,0 +1,64 @@
+$color_1: #212529;
+$color_2: white;
+$font-family_1: 'Poppins', sans-serif;
+$background-color_1: #212529;
+$background-color_2: #ffffff;
+
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+* {
+  box-sizing: border-box;
+  font-family: $font-family_1;
+}
+body {
+  margin: 0;
+}
+.header {
+  overflow: hidden;
+  background-color: $background-color_1;
+  padding: 20px 10px;
+  a {
+    float: left;
+    color: $color_1;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  a.active {
+    background-color: $background-color_2;
+    color: $color_1;
+  }
+}
+.responsive {
+  width: 500px;
+  max-width: 400px;
+  height: 200px;
+}
+.header-right {
+  a {
+    &:hover {
+      background-color: $background-color_2;
+      color: $color_1;
+    }
+    background: #212529;
+    margin: 2px;
+    color: $color_2;
+  }
+  float: right;
+  margin-top: 2.85em;
+}
+@media screen and (max-width: 500px) {
+  .header {
+    a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
+  .header-right {
+    float: none;
+    margin-top: 2em;
+  }
+}
