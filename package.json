@@ -5,5 +5,25 @@
     "parcel-plugin-imagemin": "^4.0.2",
     "rimraf": "^4.1.2",
     "sass": "^1.58.0"
-  }
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "build:scss": "node-sass scss/ -o css/"
+  },
+  "name": "cantinadelotakubs",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clonico00/cantinadelotakuBS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clonico00/cantinadelotakuBS/issues"
+  },
+  "homepage": "https://github.com/Clonico00/cantinadelotakuBS#readme",
+  "description": ""
 }
