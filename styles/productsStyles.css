@@ -173,3 +173,14 @@ h2 {
         flex: 1 0 50%;
     }
 }
+
+@media (max-width: 767px) {
+    .section-products .row {
+        justify-content: center;
+    }
+
+    .section-products .row > .product {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
