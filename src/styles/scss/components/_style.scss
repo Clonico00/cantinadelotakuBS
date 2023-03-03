@@ -1,0 +1,159 @@
+$color_1: white;
+$color_2: #ffffff;
+$color_3: #707070;
+$color_4: #FFF;
+$color_5: #212529;
+$color_6: #373a3d;
+$background-color_1: #FFF;
+$background-color_2: #212529;
+
+/* Google Fonts - Poppins */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap";
+h1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  background: #212529;
+  color: $color_1;
+  border-radius: 21px;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content {
+  margin-top: 2em;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card {
+  border-radius: 25px;
+  background-color: $background-color_1;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.overlay {
+  //center
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  background-color: $background-color_2;
+  border-radius: 25px 25px 0 25px;
+  &::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: $background-color_2;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: $background-color_2;
+    border-radius: 0 25px 0 0;
+    background-color: $background-color_1;
+  }
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #212529;
+  }
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: $color_2;
+}
+.description {
+  font-size: 14px;
+  color: $color_3;
+  text-align: center;
+}
+.button {
+  border: none;
+  font-size: 16px;
+  color: $color_4;
+  padding: 8px 16px;
+  background-color: $background-color_2;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #717375;
+  }
+}
+.swiper-navBtn {
+  transition: color 0.3s ease;
+  &:hover {
+    color: $color_5;
+  }
+  &::before {
+    font-size: 35px;
+    color: $color_6;
+    margin-top: 1.5em;
+  }
+  &::after {
+    font-size: 35px;
+    color: $color_6;
+    margin-top: 1.5em;
+  }
+}
+.swiper-button-next {
+  left: 10px;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-pagination-bullet {
+  background-color: $background-color_2;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: $background-color_2;
+}
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
