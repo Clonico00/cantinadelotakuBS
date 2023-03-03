@@ -11,7 +11,6 @@ footer {
     min-height: 50px;
 }
 
-/* The article fills all the space between header & footer */
 body {
     display: flex;
     flex-direction: column;
@@ -31,12 +30,13 @@ article {
     margin-top: 80px;
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
 }
 
-/* Footer left */
 
 .footer-distributed .footer-left {
     width: 30%;
@@ -53,7 +53,6 @@ article {
     color: #ffffff;
 }
 
-/* Footer links */
 
 .footer-distributed .footer-links {
     color: #ffffff;
@@ -74,7 +73,6 @@ article {
     margin: 0;
 }
 
-/* Footer Center */
 
 .footer-distributed .footer-center {
     width: 35%;
@@ -114,10 +112,9 @@ article {
 
 .footer-distributed .footer-center p a {
     color: #ffffff;
-    text-decoration: none;;
+    text-decoration: none;
+;
 }
-
-/* Footer Right */
 
 .footer-distributed .footer-right {
     width: 30%;
@@ -167,7 +164,10 @@ article {
 }
 
 @media (max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
         display: block;
         width: 100%;
         margin-bottom: 40px;

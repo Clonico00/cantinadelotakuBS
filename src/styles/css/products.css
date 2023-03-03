@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.section-products .row > .product {
+.section-products .row>.product {
     flex: 1 0 25%;
 }
 
@@ -169,7 +169,7 @@ h2 {
 }
 
 @media (max-width: 991px) {
-    .section-products .row > .product {
+    .section-products .row>.product {
         flex: 1 0 50%;
     }
 }
@@ -179,7 +179,7 @@ h2 {
         justify-content: center;
     }
 
-    .section-products .row > .product {
+    .section-products .row>.product {
         flex: 1 0 100%;
         max-width: 100%;
     }
