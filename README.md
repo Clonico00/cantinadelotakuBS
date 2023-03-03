@@ -1,8 +1,5 @@
 # Cantina del Otaku
-
-Tienda de anime, manga, comics, novelas y más.
-
-Desarrollada para el modulo de Diseño de Interfaces Web. 
+Desarrollada para el modulo de Diseño de Interfaces Web, esto es una tienda de anime, manga, comics, novelas y más.
 
 Link para hosting: 
 https://clonico00.github.io/cantinadelotakuBS/src/html/index.html
