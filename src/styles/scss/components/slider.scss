@@ -115,7 +115,7 @@ section.slider:last-child {
     .slider__holder {
       width: 300%;
     }
-    
+
     .slider__text {
       position: relative;
       top: auto;
@@ -142,8 +142,25 @@ section.slider:last-child {
       width: 200%;
     }
 
+    .slider__text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      opacity: 1; /* Asegura que el texto sea visible en dispositivos móviles */
+    }
+
     .slider__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       width: 50%;
+
     }
   }
 }
