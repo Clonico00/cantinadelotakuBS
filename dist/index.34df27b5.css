@@ -180,8 +180,23 @@ section.slider:last-child {
     width: 300%;
   }
 
+  .bullets .slider__text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #000000b3;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
   .bullets .slider__item {
     width: 33.333%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
   }
 }
 
