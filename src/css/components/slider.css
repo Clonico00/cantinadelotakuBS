@@ -58,10 +58,22 @@ section.slider:last-child {
     align-items: center;
     padding: 20px;
     border: none; }
+    .slider__holder .slider__item .slider__text {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      /* Establece la transparencia del fondo */
+      color: white;
+      font-size: 14px;
+      text-align: center; }
     .slider__holder .slider__item .card-img {
       max-width: 100%;
       max-height: 90%;
-      object-fit: contain; }
+      object-fit: contain;
+      border: none; }
 
 .bullets {
   position: absolute;

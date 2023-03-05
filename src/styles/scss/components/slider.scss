@@ -9,9 +9,11 @@
 section.slider:first-child {
   margin-top: 20px;
 }
+
 section.slider:last-child {
   margin-bottom: 0;
 }
+
 .section.slider h1 {
   font-size: 35px;
   display: flex;
@@ -57,10 +59,24 @@ section.slider:last-child {
     padding: 20px;
     border: none;
 
+    .slider__text {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7); /* Establece la transparencia del fondo */
+      color: white;
+      font-size: 14px;
+      text-align: center;
+
+    }
+
     .card-img {
       max-width: 100%;
       max-height: 90%;
       object-fit: contain;
+      border: none;
     }
   }
 }
