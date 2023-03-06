@@ -23,7 +23,7 @@
   },
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
-    "build:scss": "node-sass src/styles/scss/ -o src/css/",
+    "build:scss": "node-sass src/styles/scss/main.scss src/styles/css/main.css",
     "parcel:des": "parcel src/html/index.html --no-cache",
     "parcel:prod": "parcel build src/html/index.html --no-cache",
     "clear": "rimraf dist .cache .parcel-cache .cache-loader",
